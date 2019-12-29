@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+        <script src="https://unpkg.com/@barba/core"></script>
+        
+        <title>LandonSoriano</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    </head>
+    <style>
+           
+            .header{
+                background-color: #23153c;
+                position: absolute; 
+                top: 0; right: 0; bottom: 0; left: 0;
+            }
+            h1 {
+              color: #fff;
+              margin-left: 40px;
+            } 
+
+            .test{
+                top:400px;
+                left:100px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card1{
+                top:400px;
+                right: 110px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card2{
+                top:100px;
+                right: 510px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card3{
+                top:400px;
+                right: 510px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card4{
+                top:100px;
+                right: 110px;
+                position: absolute;
+                color: #fff;
+            }
+            </style>
+
+<body>
+<div class="header">
+    <div id="particles-js">  
+    
+    <div class="test">
+      <h1>Landon Soriano</h1>
+    </div>
+    <!--card one-->
+    <div class="card card1" style="width: 18rem;">
+      <div class="card-body" style="background-color: #f85a62;">
+        <h5 class="card-title">Resume</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    
+<!--card two-->
+    <div class="card card2" style="width: 18rem;">
+      <div class="card-body" style="background-color: #fdf14b;">
+        <h5 class="card-title">Languages</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary" >Go somewhere</a>
+      </div>
+    </div>
+    
+
+    <!--card three-->
+    <div class="card card3" style="width: 18rem;">
+      <div class="card-body" style="background-color: #0300d1;">
+        <h5 class="card-title">Projects</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <!--card four-->
+    <div class="card card4" style="width: 18rem;">
+      <div class="card-body" style="background-color: #009b3b;">
+        <h5 class="card-title">Frameworks</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <button href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Go somewhere</a>
+      </div>
+    </div>
+
+    </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+ 
+
+
+    <script>
+      particlesJS.load('particles-js','particles.json', function(){
+          console.log('particles loaded')});
+     </script>
+</body>
+
+</html>
