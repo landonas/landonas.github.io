@@ -1,0 +1,46 @@
+           
+            .header{
+                background-color: #23153c;
+                position: absolute; 
+                top: 0; right: 0; bottom: 0; left: 0;
+            }
+            h1 {
+              color: #fff;
+              margin-left: 40px;
+            } 
+
+            .test{
+                top:400px;
+                left:100px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card1{
+                top:400px;
+                right: 110px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card2{
+                top:100px;
+                right: 510px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card3{
+                top:400px;
+                right: 510px;
+                position: absolute;
+                color: #fff;
+            }
+
+            .card4{
+                top:100px;
+                right: 110px;
+                position: absolute;
+                color: #fff;
+            }
+     
