@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Landon Soriano</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <style>
            
@@ -23,7 +23,7 @@
             .test{
                 top:500px;
                 left:100px;
-                position: absolute;
+                position: fixed;
                 color: #fff;
             }
 
@@ -36,16 +36,25 @@
             }
 
             .card1{
-                top:400px;
-                right: 110px;
-                position: absolute;
-                color: #fff;
+                top:450px;
+                color: pink;
+                position: fixed;
+            }
+
+            .pos1{
+                top:450px;
+                position: fixed;
+            }
+
+            .pos2{
+                top:200px;
+                position: fixed;
             }
 
             .card2{
-                top:200px;
+                top:450px;
                 right: 310px;
-                position: absolute;
+                position: fixed;
                 color: #fff;
             }
 
@@ -72,15 +81,33 @@
 
 <body style="background-color: #1D1D2C;">
 <div class="header">
-    <div id="particles-js">  
-    
+    <div id="particles-js">
+
+
+      <div class="container">
+     
+        <div class="row test">
+          <div class="col-sm-6" style="background-color: transparent; color: #fff; height: 0em;">
+            LANDON SORIANO<br>
+            <a href="Resume/resume.pdf"> <i class="fa fa-file" style="font-size:60px;color:red;"></i> </a>
+            <a href="https://github.com/landonas"><i class="fa fa-github" style="font-size:60px;color:red;" > </i> </a> 
+
+            
+          </div>
+          <div class="col-sm-6 " style="background-color:transparent;">
+            I have a wide array of interests and I enjoy finding solutions. I have a strong passion for developing, learning and completing projects. 
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!--
       <div class=".col-xs-6 .col-sm-4">
     <div class="test">
       <h1>Landon Soriano</h1>
         landon.d3v@gmail.com | github.com/landonas
       </div>
- 
-    </div>
+    -->
+
  
     <!--card one
     <div class="card card1" style="width: 18rem;">
@@ -90,15 +117,14 @@
         <a href="/Resume/resume.pdf" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
+      </br>I have a wide array of interests and I enjoy finding solutions. I have a strong passion for developing, learning and completing projects. 
+
     -->
-<div class="card card2" style="width: 30em; background-color: transparent;">
-  <div class="card-text">
-  <p>
-    <b>Hello Friend</b>, my name is Landon Soriano and I am a Software Engineer. </br>
-  </br>I have a wide array of interests and I enjoy finding solutions. I have a strong passion for developing, learning and completing projects. 
-  </p>
-    </div>
-</div>
+
+
+
+
+
 
     <!--card three
     <div class="card card3" style="width: 18rem;">
